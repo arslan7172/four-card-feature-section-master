@@ -1,0 +1,85 @@
+body{
+    background-color: #fdfdfd;
+    font-family: 'Poppins', sans-serif; 
+}
+.esasy{
+    text-align: center;
+    padding: 0 32%  0 32%;
+}
+.first{
+    font-weight: 100;
+    height: 1.8rem;
+}
+.second{
+    font-weight: 600;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    padding: 2% 15%  0 15%;
+}
+.card-title{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.content{
+    color: #808b97;
+    font-size: 0.8rem;
+}
+.shadow{
+    box-shadow: 1px 10px 10px 1px #94b5c0;
+    padding: 2rem;
+    border-radius: 0.3rem ;
+    border-top: 5px solid;
+}
+.left{
+    border-color: hsl(180, 62%, 55%);
+    margin-right: 1rem;
+}
+.middle-1{
+    border-color: hsl(0, 78%, 62%);
+    margin: 0 1rem 2rem 1rem;
+}
+.middle-2{
+    border-color: hsl(34, 97%, 64%);
+    margin: 2rem 1rem 0rem 1rem;
+}
+.right{
+    border-color: hsl(212, 86%, 64%);
+    margin-left: 1rem;
+}
+img{
+    display: block;
+  margin-left: 12rem;
+  margin-right: 1rem;
+}
+@media (max-width:415px){
+    .esasy{
+        padding: 0 3%  0 3%;
+    }
+    .first{
+        font-size: 1.7rem;
+        height: 1.2rem;
+    }
+    .second{
+        font-size: 1.7rem;
+    }
+    .cards{
+        display: inline-block;
+        padding: 2% 5%  0 5%;
+    }
+    .middle{
+        width: 100%;
+    }
+    .middle-1{
+        margin: 1.5rem 1rem 2rem 0rem;
+    }
+    .middle-2{
+        border-color: hsl(34, 97%, 64%);
+        margin: 1.5rem 1rem 2rem 0rem;
+    }
+    .right{
+        border-color: hsl(212, 86%, 64%);
+        margin: 2rem 1rem 2rem 0rem;
+    }
+}
